@@ -1,0 +1,13 @@
+n1=(input('Insira qualquer coisa:'))
+print('Você inseriu {}'.format(n1) )
+
+print('{} é númérico:'.format(n1),n1.isnumeric())
+print('{} é alfanumérico:'.format(n1),n1.isalnum())
+print('{} é alfabético:'.format(n1),n1.isalpha())
+print('{} é um digito:'.format(n1),n1.isdigit())
+print('{} é decimal:'.format(n1),n1.isdecimal())
+print('{} está escrito em minúsculo:'.format(n1),n1.islower())
+print('{} está escrito em maiúsculo:'.format(n1),n1.isupper())
+print('{} é imprimível:'.format(n1),n1.isprintable())
+print('{} é um espaço:'.format(n1),n1.isspace())
+print('{} tem apenas a primeira letra maiúscula:'.format(n1),n1.istitle())
